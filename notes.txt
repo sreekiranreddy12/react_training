@@ -1,0 +1,14 @@
+function types
+1.named function
+2. anonymus function
+3. function expression 
+4.immediate invoked function expression 
+5. arrow function
+6. higher order function
+7. callback function 
+note :
+ current version of javascript is es14
+ es6:stable version
+ es- ECMA script
+ what is return keyword?
+ -
