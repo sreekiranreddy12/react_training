@@ -1,14 +1,43 @@
-function types
+function types:-
+***************
 1.named function
 2. anonymus function
 3. function expression 
 4.immediate invoked function expression 
 5. arrow function
-6. higher order function
-7. callback function 
-note :
+6. higher order function- a function which accepts 
+7. callback function
+****************
+note :-
  current version of javascript is es14
- es6:stable version
- es- ECMA script
+ es6:- stable version
+ es:- ECMA script
  what is return keyword?
- -
+ 
+what is object ?
+~ object is an entity which is having state(properties) and behaviour
+JSON: javascript object notation 
+~ JSON is a lightweight technique of javascript used to transfer data/information from client  to server and vice versa
+ -- except number it will store 
+
+ asynchronous in javascript:-
+ **************
+ - to perform multiple tasks in javascript.
+ 1.setTimeout();
+ **
+
+ 2.setInterval(); :- is a web api used to perform async operations at a 
+ *****syntax: setInterval(callbackfn ,timeout);*****
+
+ 3.promise:- promise is an object which represent eventual completion or failure of ansynchronous operation
+                states of promise :
+                1. pending state
+                2. fulfilled state
+                3. rejeted state
+    syntax: new promise (()=>{reslove, reject });
+    - the actual way of excecuting the promise is instance methods ;
+    1. then(); : - it is used to execute fulfilled state
+    2. catch(); : - it is used to execute rejected state
+    3. finally(); :- it is used to execute 
+ 4. async and await
+ note : - by default, javascript is syncrhronous (single thread).
