@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.App{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: chartreuse;
+}
+.nav{
+    height: 10%;
+    background-color: red;
+}
+
+.main{
+    height: 40%;
+    background-color: rgb(37, 217, 181);
+}
+
+.sidebar{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 60%;
+    
+}
+.sidebar1{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(109, 205, 90);
+}
+
+.sidebar2{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(181, 21, 101);
+}
+
+.footer{
+    height: 20%;
+    background-color: springgreen;
+}
