@@ -7,11 +7,13 @@ import Footer from './components/Footer'
 // import './global.css';
 import CBCStateEx from './stateeaxample/CBCStateEx'
 import FCBStateEx from './stateeaxample/FCBStateEx'
+import FunctionalComponent from './components/functionalcomponent'
+import './App.css'
 
 
 const App = () =>{
   return (
-    <div className="app">
+    <div >
       {/* <Navbar />
       <Main />
       <div className='sidebar'>
@@ -19,8 +21,11 @@ const App = () =>{
       <Sidebar2 />
       </div>
       <Footer /> */}
-      <CBCStateEx/>
+      {/* <CBCStateEx/>
+    <br/>
       <FCBStateEx/>
+      <br/> */}
+      <FunctionalComponent/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  align-items: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.heading{
+  color: yellow;
+  background-color: blueviolet;
+}
+.font-style{
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
 }

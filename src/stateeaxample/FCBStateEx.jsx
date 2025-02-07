@@ -6,8 +6,10 @@ export default function FCBStateEx() {
     const changevalue = () => {
         setValue(1000)
     }
+    
   return (
-    <div>FCBStateEx
+    <div >
+      <h1 className='App'>FCBStateEx</h1>
         <h1>{value}</h1>
         <button onClick={changevalue}> changevalue</button>
       
